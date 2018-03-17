@@ -6,7 +6,7 @@
 ```
 git clone git@github.com:johnrlive/deploy-hugo-netlifycms.git
 cd deploy-hugo-netlifycms/
-bash hugo-cms.sh
+sh hugo-cms.sh
 ```
 
 

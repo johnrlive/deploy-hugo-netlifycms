@@ -1,10 +1,10 @@
 #!/bin/bash
 sitename="johnrlive"
 
-## uncomment to delte site name
-# rm -rf $sitename
+## uncomment to delete site name
+rm -rf $sitename
 
-echo "=== download one-click-hugo-cms repo as $sitename ==="
+echo "=== === === download one-click-hugo-cms repo as $sitename === === ==="
 git clone https://github.com/netlify-templates/one-click-hugo-cms $sitename
 cd $sitename
 rm -rf .git/
@@ -16,7 +16,8 @@ npm install
 # cd one-click-hugo-cms
 
 ## Run the theme script
-bash hugo-theme.sh
+cd $sitename
+sh ../hugo-theme.sh
 
 ## Start Server
-npm start
+# npm start
